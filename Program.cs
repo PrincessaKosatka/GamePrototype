@@ -13,6 +13,14 @@ namespace GamePrototype
             Console.WriteLine($"{player.Name}: {player.Health}/{player.MaxHealth} HP, урон: {player.BaseDamage}");
 
             Console.WriteLine($"{goblin.Name}: {goblin.Health}/{goblin.MaxHealth} HP, урон {goblin.BaseDamage}");
+
+            EquipmentSlot equipmentSlot = EquipmentSlot.Weapon;
+
+            Console.WriteLine(equipmentSlot);
+
+            RoomDirection roomDirection = RoomDirection.Left;
+
+            Console.WriteLine(roomDirection);
         }
     }
 
